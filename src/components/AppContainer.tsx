@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import { AppShell, Footer, Group, Header, Text } from "@mantine/core";
 import { FaBars } from "react-icons/fa";
+import Link from "next/link";
 
 const StyledAppShell = styled(AppShell)`
   & .mantine-AppShell-main {
@@ -25,10 +26,16 @@ const AppHeader = () => {
           alignSelf: "center",
         }}
       >
-        <Text size="xl">
-          Hyper
-          <span style={{ fontWeight: "bolder", color: "#87CEEB" }}>Focus</span>
-        </Text>
+        <Link href='/'>
+
+
+          {/* https://hyperfocus.aarsenault.repl.co/ */}
+          {/* https://mantine.dev/  */}
+          <Text size="xl">
+            Hyper
+            <span style={{ fontWeight: "bolder", color: "#87CEEB" }}>Focus</span>
+          </Text>
+        </Link>
         <FaBars />
       </Group>
     </Header>

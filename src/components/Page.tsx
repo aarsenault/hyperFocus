@@ -1,10 +1,21 @@
 import styled from "@emotion/styled";
+import Head from "next/head";
 
 const Page = ({ children }: any) => {
   return (
-    <main style={{ width: "100%" }}>
-      <PageContent>{children}</PageContent>
-    </main>
+    <>
+      <Head>
+        <title>HyperFocus</title>
+        <meta name="description" content="HyperFocus productivity app" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    
+    
+      <main  style={{ width: "100%" }}>
+        <PageContent>{children}</PageContent>
+      </main>
+    </>
   );
 };
 

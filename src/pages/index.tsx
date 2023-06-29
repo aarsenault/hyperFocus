@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Button, Text, Title } from "@mantine/core";
-import Page from "@/components/page";
+import Page from "@/components/Page";
 import TextGlitch from "@/components/TextGlitch/TextGlitch";
 import styled from "@emotion/styled";
 
