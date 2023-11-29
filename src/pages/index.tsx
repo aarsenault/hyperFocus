@@ -92,7 +92,9 @@ export default function Home() {
 
       <Page>
         <Title order={1} align="center" mb={"3rem"} mt={50}>
+          {/* TODO - Give this a pink underline so it matches the corner */}
           <TextGlitch text="Hyper" as="span" />
+          {/* TODO - move this out to a constant */}
           <BlurSpans>
             <span style={{ fontWeight: "bolder", color: "#87CEEB" }}>
               Focus
